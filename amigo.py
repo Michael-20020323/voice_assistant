@@ -35,7 +35,7 @@ def take_command():
 
 if __name__ == '__main__':
 
-    speak("Amigo assistance activated ")
+    speak("Amigo, Michael's assistant at your service")
     speak("How can i help you")
     while True:
         query = take_command().lower()
@@ -83,3 +83,6 @@ if __name__ == '__main__':
             webbrowser.open("E://")
         elif 'sleep' in query:
             exit(0)
+        elif 'What do you do' in query:
+            speak("I am a personal assistant, here to assist you in every possible way that I can and to automate some things for you.")
+

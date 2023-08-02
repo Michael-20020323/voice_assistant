@@ -73,3 +73,14 @@ GitHub: [JaspreetSidhu3](https://github.com/jaspreetsidhu3)
 * speech_recognition library
 * webbrowser library
 
+# My Contribution
+
+I added this line of code:
+elif 'What do you do' in query:
+            speak("I am a personal assistant, here to assist you in every possible way that I can and to automate some things for you.")
+
+As well as changed this code:
+  speak("Amigo assistance activated ")
+
+  to:
+  speak("Amigo, Michael's assistant at your service")
